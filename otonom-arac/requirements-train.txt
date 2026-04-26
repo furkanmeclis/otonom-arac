@@ -1,0 +1,13 @@
+# Core runtime + target-point training stack (Windows + Python 3.11)
+# Note: Unity simulator binary is not installed by pip.
+donkeycar==5.2.0
+tensorflow==2.15.1
+numpy==1.26.4
+Pillow==12.1.1
+gym==0.22.0
+docopt==0.6.2
+opencv-python-headless==4.9.0.80
+imageio==2.37.2
+
+# Local project package (gym_donkeycar from this repo)
+-e .

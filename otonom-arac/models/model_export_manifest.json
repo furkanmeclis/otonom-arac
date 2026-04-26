@@ -1,0 +1,122 @@
+[
+  {
+    "source": "model_01_pure_sim.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "model_01_pure_sim.h5",
+    "h5_size_bytes": 207912,
+    "tflite_fp16": "model_01_pure_sim_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "model_02_sim_domain_randomization.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "model_02_sim_domain_randomization.h5",
+    "h5_size_bytes": 207912,
+    "tflite_fp16": "model_02_sim_domain_randomization_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "model_03_pure_real.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "model_03_pure_real.h5",
+    "h5_size_bytes": 207896,
+    "tflite_fp16": "model_03_pure_real_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "model_04_hybrid_v1_naive_mix.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "model_04_hybrid_v1_naive_mix.h5",
+    "h5_size_bytes": 207912,
+    "tflite_fp16": "model_04_hybrid_v1_naive_mix_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "model_05_hybrid_v2_sim_heavy.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "model_05_hybrid_v2_sim_heavy.h5",
+    "h5_size_bytes": 207912,
+    "tflite_fp16": "model_05_hybrid_v2_sim_heavy_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "model_06_hybrid_v3_real_heavy.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "model_06_hybrid_v3_real_heavy.h5",
+    "h5_size_bytes": 207912,
+    "tflite_fp16": "model_06_hybrid_v3_real_heavy_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "model_07_finetune.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "model_07_finetune.h5",
+    "h5_size_bytes": 208552,
+    "tflite_fp16": "model_07_finetune_fp16.tflite",
+    "tflite_fp16_size_bytes": 78324,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "model_11_multitask.keras",
+    "input_shape": "(None, 128, 128, 3)",
+    "output_shape": "[(None, 1), (None, 1)]",
+    "params": 669828,
+    "h5": "model_11_multitask.h5",
+    "h5_size_bytes": 2728784,
+    "tflite_fp16": "model_11_multitask_fp16.tflite",
+    "tflite_fp16_size_bytes": 1346992,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "sim_multitrack_v1.keras",
+    "input_shape": "(None, 224, 224, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "sim_multitrack_v1.h5",
+    "h5_size_bytes": 204328,
+    "tflite_fp16": "sim_multitrack_v1_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  },
+  {
+    "source": "target_point_realtrack_ready.keras",
+    "input_shape": "(None, 224, 224, 3)",
+    "output_shape": "(None, 2)",
+    "params": 33858,
+    "h5": "target_point_realtrack_ready.h5",
+    "h5_size_bytes": 204328,
+    "tflite_fp16": "target_point_realtrack_ready_fp16.tflite",
+    "tflite_fp16_size_bytes": 77420,
+    "status": "ok",
+    "errors": []
+  }
+]

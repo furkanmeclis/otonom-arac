@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(head -100 /c/Users/alper/Desktop/otonom-arac/otonom-arac/logs/*.log)",
+      "Bash(.venv/Scripts/python collect_target_point_data.py --task map --simulationconfig simulationconfig.py --track donkey-generated-track-v0 --laps 2 --max-steps 4000 --seed 42)",
+      "Bash(.venv/Scripts/python collect_target_point_data.py --task map --simulationconfig simulationconfig.py --track donkey-generated-track-v0 --laps 2 --max-steps 8000 --seed 100)",
+      "Bash(.venv/Scripts/python collect_target_point_data.py --task collect --simulationconfig simulationconfig.py --train-tracks donkey-generated-roads-v0 --val-tracks donkey-generated-roads-v0 --episodes-per-track 10 --max-steps 4000 --seed 500 --collection-profile phase2_low_noise --nominal-only-tracks donkey-generated-roads-v0 --remap-generated-roads --output-root data/target_point_phase2_large)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:d.get\\(k\\) for k in ['collapse_gate','train_loss','val_loss','train_corr_x','val_corr_x','train_corr_y','val_corr_y','train_mae_x','val_mae_x']}, indent=2\\)\\)\")",
+      "Bash(python evaluate_target_point.py --model models/target_point_phase2_large_noaug.keras --tracks donkey-generated-roads-v0 --episodes-per-track 5 --seed 10042)",
+      "Bash(python evaluate_target_point.py --model models/target_point_combined_large_noaug.keras --tracks donkey-generated-roads-v0 --episodes-per-track 5 --seed 10042)",
+      "Bash(.venv/Scripts/python evaluate_target_point.py --model models/target_point_combined_large_noaug.keras --tracks donkey-generated-roads-v0 --episodes-per-track 5 --seed 10042)"
+    ]
+  }
+}

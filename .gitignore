@@ -1,0 +1,4 @@
+.repo_tmp/
+__MACOSX/
+.venv/
+.vscode/
