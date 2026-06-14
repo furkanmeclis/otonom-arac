@@ -1,15 +1,8 @@
-# AI Pipeline Rehberi — Sıfırdan Anlatım
 
-Bu rehber projeyi **hiç bilmeyen birine** anlatır gibi yazıldı. Her aşamada
-"ne oluyor, neden oluyor, ne girip ne çıkıyor ve hangi dosya bunu yapıyor"
-sorularını yanıtlar. Kod fiziksel olarak taşınmadı; bu sadece bir "harita".
-
----
 
 ## Önce: Bu proje aslında ne yapıyor?
 
-Bir oyuncak araba var. Üstünde bir kamera. Amaç: araba kameradan gördüğüyle
-**kendi kendine pisti sürebilsin.**
+
 
 Çoğu projede model şunu öğrenir: "şu görüntüyü gördüm → direksiyonu şu kadar
 çevir". Bu projede ise **farklı bir yol** seçilmiş. Model direksiyonu değil,

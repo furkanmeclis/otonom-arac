@@ -184,7 +184,8 @@ Model gerçek pistinde tökezlerse (sık olur, çünkü senin pistin modelin gö
 farklı), **kendi pistinden örnek toplarsın.**
 
 ```bash
-python manage.py drive --js
+python manage.py drive 
+http://localhost:8887/drive
 ```
 **Ne oldu?** Model YOK — **sen** joystick'le sürersin. Gaz verince DonkeyCar
 otomatik kaydeder (her an: görüntü + senin direksiyon + gaz).
