@@ -1,0 +1,23 @@
+{
+  "length": 210,
+  "width": 180,
+  "height": 20,
+  "clearance": 13,
+  "wheelbase": 170,
+  "trackWidth": 150,
+  "wheelDiameter": 60,
+  "wheelWidth": 34,
+  "servoWidth": 20,
+  "servoLength": 40,
+  "servoHeight": 36,
+  "servoOffset": 45,
+  "servoHornLength": 30,
+  "maxSteerAngle": 35,
+  "springFreeLength": 45,
+  "springRate": 3.5,
+  "springDiameter": 13,
+  "springCoils": 8,
+  "springWireThickness": 2.2,
+  "springAngle": 15,
+  "chassisMaterial": "PLA / PETG (3D Yazıcı)"
+}
