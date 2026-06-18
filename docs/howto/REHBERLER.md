@@ -9,6 +9,7 @@ Bu projeye özel Türkçe dokümanlar. **Numaralar önerilen okuma/çalışma s�
 | **02** | [02_JETSON_KURULUM.md](02_JETSON_KURULUM.md) | Gerçek arabayı (Jetson + USB kamera) kur, kalibre et, modeli **test et**. |
 | **03** | [03_KENDI_MODELINI_EGIT.md](03_KENDI_MODELINI_EGIT.md) | Model iyi süremezse: kendi verinle **fine-tune** + TFLite'a çevir. |
 | **04** | [04_CONFIG_REHBERI.md](04_CONFIG_REHBERI.md) | Başvuru: `config.py`'deki her ayar ne işe yarar. |
+| **05** | [05_DONKEYCTL_LAUNCHER.md](05_DONKEYCTL_LAUNCHER.md) | `donkeyctl.py` ile sim'i tek komutla başlat, tünel aç, telefonu QR ile bağla. |
 
 ## Tipik çalışma akışı
 

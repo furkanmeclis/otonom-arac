@@ -24,6 +24,17 @@ Model eğitim sürecinin teknik detayları için:
 MODEL_EGITIM_SURECI.md
 ```
 
+Simülasyonu tek komutla başlatıp telefonla bağlanmak için (`donkeyctl.py` launcher):
+
+```
+docs/howto/05_DONKEYCTL_LAUNCHER.md
+```
+
+```bash
+python donkeyctl.py start   # pist + bağlantı modu + model seç → terminale QR bas → telefonla tara
+python donkeyctl.py stop    # tüm servisleri durdur
+```
+
 ## Gereksinimler
 
 - Python 3.11 (`tensorflow==2.15.1` yalnızca 3.11 ile çalışır)
