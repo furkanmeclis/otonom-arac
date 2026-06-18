@@ -1,0 +1,27 @@
+{
+  "running": false,
+  "track": "donkey-generated-roads-v0",
+  "model": null,
+  "record": false,
+  "port": 8887,
+  "sim_path": "/Users/furkanmeclis/Documents/DonkeyCar/gym-donkeycar/otonom-arac/donkey_sim.app/Contents/MacOS/donkey_sim",
+  "tunnel": "zrok",
+  "lan_ip": null,
+  "manage_pid": null,
+  "tunnel_pid": null,
+  "ngrok_pid": null,
+  "zrok_share_token": null,
+  "use_ngrok": false,
+  "connection": {
+    "v": 1,
+    "base": "https://8cwqpatxwfzh.shares.zrok.io",
+    "track": "donkey-generated-roads-v0",
+    "tunnel": "zrok",
+    "ws": "wss://8cwqpatxwfzh.shares.zrok.io/wsDrive",
+    "video": "https://8cwqpatxwfzh.shares.zrok.io/video",
+    "snapshot": "https://8cwqpatxwfzh.shares.zrok.io/snapshot",
+    "drive": "https://8cwqpatxwfzh.shares.zrok.io/drive",
+    "port": 8887
+  },
+  "started_at": 1781614702.5368052
+}
